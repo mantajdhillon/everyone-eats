@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/landing.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Everyone Eats !</title>
+    </head>
+
+    <body>
+        <audio id="audio" src="assets/chomp.mp3" autostart="false"></audio>
+
+        <script>
+            function PlayChomp() {
+                var sound = document.getElementById("audio");
+                sound.play();
+                setTimeout(function () { location.href = 'index.html'; }, sound.duration * 1000);
+            }
+        </script>
+
+        <a id="logo" onclick="PlayChomp();">
+            <img id="logo-img" src="img/logo-full.png" alt="smiley face with tongue out and the words everyone eats">
+        </a>
+
+
+    </body>
+
+
+</html>
