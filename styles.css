@@ -1,0 +1,45 @@
+
+.topnav-centered {
+    width: 100%;
+    background-color: grey;
+    border-radius: 20px;
+    display: table;
+    clear: both;
+    overflow: hidden;
+    position: relative;
+}
+
+nav {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.column {
+   float: left;
+   height: 100%;
+   width: 33.33%;
+   background-color: grey;
+   justify-content: center;
+   text-align: center;
+   border-radius: 20px;
+   display: flex;
+   right: 0;
+   top: 0;
+}
+
+ 
+.active {
+   background-color: black;
+   float: left;
+   height: 100%;
+   width: 33.33%;
+   justify-content: center;
+   text-align: center;
+   border-radius: 20px;
+   display: flex;
+   right: 0;
+   top: 0;
+}
+
